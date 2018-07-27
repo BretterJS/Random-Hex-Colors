@@ -1,0 +1,65 @@
+
+body {
+
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+
+}
+
+h1 {
+
+    align-self: flex-start;
+
+}
+
+.transitionColor {
+
+    transition: background-color 1000ms linear;
+
+}
+
+#container {
+
+    text-align: center;
+
+}
+
+#hexColorBtn {
+
+    border: 5px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: .8rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.7);
+    font-size: .8rem;
+    text-shadow: .1rem .1rem black;
+    cursor: pointer;
+    align-self: center;
+
+    &:hover {
+
+        color: black;
+        text-shadow: .1rem .1rem white;
+        border: 5px double rgba(0,0,0, .5);
+        outline: none;
+        transform: scale(1.05);
+
+    }
+}
+
+#hexColor {
+
+    text-transform: capitalize;
+
+}
+
+#hexCode {
+
+    min-height: 1.2em;
+    font-size: 3rem;
+    display: block;
+}
