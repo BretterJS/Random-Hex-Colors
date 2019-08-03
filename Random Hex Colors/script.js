@@ -13,8 +13,6 @@ function changeColor() {
     for (let i = 0; i < 6; i++) {
         let randomNum = Math.floor(Math.random()*hexNumbers.length);
         hexColor += hexNumbers[randomNum];
-        // console.log(randomNum);
-        // console.log(hexColor);
         body.classList.add = 'transitionColor';
         body.style.backgroundColor = hexColor;
     
